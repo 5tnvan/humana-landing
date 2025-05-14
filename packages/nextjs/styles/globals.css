@@ -39,7 +39,7 @@
 @plugin "daisyui/theme" {
   name: "dark";
 
-  --color-primary: #212638;
+  --color-primary: #000;
   --color-primary-content: #f9fbff;
   --color-secondary: #323f61;
   --color-secondary-content: #f9fbff;
@@ -48,7 +48,7 @@
   --color-neutral: #f9fbff;
   --color-neutral-content: #385183;
   --color-base-100: #385183;
-  --color-base-200: #2a3655;
+  --color-base-200: #000;
   --color-base-300: #212638;
   --color-base-content: #f9fbff;
   --color-info: #385183;

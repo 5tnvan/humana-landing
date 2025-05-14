@@ -50,11 +50,24 @@
     "verify": "yarn hardhat:verify"
   },
   "devDependencies": {
+    "@types/three": "latest",
     "husky": "~9.1.6",
     "lint-staged": "~13.2.2"
   },
   "packageManager": "yarn@3.2.3",
   "engines": {
     "node": ">=20.18.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "alpha",
+    "@tabler/icons-react": "^3.31.0",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "lucide-react": "^0.510.0",
+    "motion": "^12.11.3",
+    "tailwind-merge": "^3.3.0",
+    "three": "^0.176.0",
+    "three-globe": "^2.42.4"
   }
 }
