@@ -9,7 +9,7 @@ import { motion } from "motion/react";
 export function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Life, Verified",
+      title: "Real-Life, Verified",
       description: "Social Graph. Emotional Signal. Context Locked — On-Chain.",
       skeleton: <SkeletonOne />,
       className: "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
