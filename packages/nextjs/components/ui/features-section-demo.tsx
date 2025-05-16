@@ -43,7 +43,7 @@ export function FeaturesSectionDemo() {
           Because your real-world impact matters.﻿
         </p>
         <div className="flex justify-center items-center">
-          <MovingBorderDemo text="Follow on X" href="https://x.com/" />
+          <MovingBorderDemo text="Follow us on X" href="https://x.com/humanaprotocol" />
         </div>
       </div>
 

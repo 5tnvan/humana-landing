@@ -9,27 +9,27 @@ export function GlowingEffectDemoSecond() {
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
         icon={<Box className="h-4 w-4 text-black dark:text-neutral-400" />}
-        title="Zero-Knowledge Proofs (ZKPs)"
-        description="Lightweight Proof-of-Humanity (PoH) proving your SBT ownership without revealing PIIs."
+        title="Proof-of-Humanity (PoH)"
+        description="Lightweight PoH proving your SBT ownership without revealing PIIs."
       />
 
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
-        icon={<Settings className="h-4 w-4 text-black dark:text-neutral-400" />}
-        title="Decentralized Market"
+        icon={<Sparkles className="h-4 w-4 text-black dark:text-neutral-400" />}
+        title="Impact Investment Tokens (IITs)"
         description="Back real humans, not hype."
       />
 
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
         icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
-        title="Permissionless access"
+        title="Permissionless Access"
         description="No Logins. No Gatekeepers."
       />
 
       <GridItem
         area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
-        icon={<Sparkles className="h-4 w-4 text-black dark:text-neutral-400" />}
+        icon={<Settings className="h-4 w-4 text-black dark:text-neutral-400" />}
         title="Slashing Mechanism"
         description="Protects the network against exploitation, spam, and Sybil attacks"
       />

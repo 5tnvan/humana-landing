@@ -14,11 +14,15 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="flex items-center flex-col grow pt-10">
+      <div className="flex items-center flex-col grow">
         <GlobeDemo />
-        <GlareCardDemo />
+        <div className="pt-20">
+          <GlareCardDemo />
+        </div>
         <FeaturesSectionDemo />
-        <GlowingEffectDemoSecond />
+        <div className="px-10 pb-10">
+          <GlowingEffectDemoSecond />
+        </div>
       </div>
     </>
   );
