@@ -3949,29 +3949,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/fiber@npm:alpha":
-  version: 9.0.0-alpha.8
-  resolution: "@react-three/fiber@npm:9.0.0-alpha.8"
+"@react-three/fiber@npm:^9.1.2":
+  version: 9.1.2
+  resolution: "@react-three/fiber@npm:9.1.2"
   dependencies:
     "@babel/runtime": ^7.17.8
-    "@types/react-reconciler": ^0.28.8
+    "@types/react-reconciler": ^0.28.9
+    "@types/webxr": "*"
     base64-js: ^1.5.1
     buffer: ^6.0.3
-    its-fine: ^1.2.5
-    react-reconciler: 0.31.0-rc-935180c7e0-20240524
-    react-use-measure: ^2.1.1
-    scheduler: 0.25.0-rc-935180c7e0-20240524
+    its-fine: ^2.0.0
+    react-reconciler: ^0.31.0
+    react-use-measure: ^2.1.7
+    scheduler: ^0.25.0
     suspend-react: ^0.1.3
-    zustand: ^4.1.2
+    use-sync-external-store: ^1.4.0
+    zustand: ^5.0.3
   peerDependencies:
     expo: ">=43.0"
     expo-asset: ">=8.4"
     expo-file-system: ">=11.0"
     expo-gl: ">=11.0"
-    react: ">=19.0"
-    react-dom: ">=19.0"
-    react-native: ">=0.69"
-    three: ">=0.141"
+    react: ^19.0.0
+    react-dom: ^19.0.0
+    react-native: ">=0.78"
+    three: ">=0.156"
   peerDependenciesMeta:
     expo:
       optional: true
@@ -3985,7 +3987,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: e9f7349e66155286854fddc911e937d8e5e993beea4ee0ddad8e4b134f40cad32285902c3c88c6fed244faec04ed590bb47a5a3761154ba4cf36b72611be3b2b
+  checksum: fe6cedb17c08dad08e1369c3419211787669aa43be77991d6484b30b582c7c15068d978ee8cbb4dac7e5e6014335d7a49241a3a7580a834e2cd1357713cd3070
   languageName: node
   linkType: hard
 
@@ -5813,7 +5815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-reconciler@npm:^0.28.0, @types/react-reconciler@npm:^0.28.8":
+"@types/react-reconciler@npm:^0.28.9":
   version: 0.28.9
   resolution: "@types/react-reconciler@npm:0.28.9"
   peerDependencies:
@@ -10947,12 +10949,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.11.3":
-  version: 12.11.3
-  resolution: "framer-motion@npm:12.11.3"
+"framer-motion@npm:^12.12.1":
+  version: 12.12.1
+  resolution: "framer-motion@npm:12.12.1"
   dependencies:
-    motion-dom: ^12.11.2
-    motion-utils: ^12.9.4
+    motion-dom: ^12.12.1
+    motion-utils: ^12.12.1
     tslib: ^2.4.0
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -10965,7 +10967,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 7afa8e0ecff5dae489fed7d95dea9398e28f8284d91c99ecb8bfa018f5d1445151de5e605dc1a1b662fe20bdac5f2e8b6709950cb525e1304fe0b0912183e914
+  checksum: 29e42235c73f12a47aeadd650687b28b06736e0365a67dce1948202c217eba64e32e021026ad94ea95b01eaaf5aab465c53588368e0757ab08531a32f749e27f
   languageName: node
   linkType: hard
 
@@ -12793,14 +12795,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"its-fine@npm:^1.2.5":
-  version: 1.2.5
-  resolution: "its-fine@npm:1.2.5"
+"its-fine@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "its-fine@npm:2.0.0"
   dependencies:
-    "@types/react-reconciler": ^0.28.0
+    "@types/react-reconciler": ^0.28.9
   peerDependencies:
-    react: ">=18.0"
-  checksum: b801f101a618f0659566d1793efd2498719463a3f1a93c063c0745524fbfae1abc5e0bafdb4fd4d7d4382ac845755e86197f3c7cb5d0c07b56d380acb9b7c6d4
+    react: ^19.0.0
+  checksum: 887ff10d8dfe8558683d5f68ad963c72a28c6df027c5039de7ec57978e5071c564ef4b00b14ef41e7706e5839a5584cbd480a79a3880f78d7ff826931e5dc22a
   languageName: node
   linkType: hard
 
@@ -14196,19 +14198,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.11.2":
-  version: 12.11.2
-  resolution: "motion-dom@npm:12.11.2"
+"motion-dom@npm:^12.12.1":
+  version: 12.12.1
+  resolution: "motion-dom@npm:12.12.1"
   dependencies:
-    motion-utils: ^12.9.4
-  checksum: a1412e315c6afd65668066c16fc0b8c70d9376dc744325e80dbc0184d3d3548c197c658aa4b6d559211a0e76871422ae579ffaec198ea5526fd123abc2193511
+    motion-utils: ^12.12.1
+  checksum: d9953be26c539357ff71da36c27b4ed3e0df552fd708b8c6e54929cc7dc52cf02002149aff73767f4b76b2119d2c1f933f2ac64e75fcd4ea9b571a988fa7fad3
   languageName: node
   linkType: hard
 
-"motion-utils@npm:^12.9.4":
-  version: 12.9.4
-  resolution: "motion-utils@npm:12.9.4"
-  checksum: 7fe97beb216e0591afac3188e1ad10de40099b9092813078e2b5d86b4403331e3006f5866e75bc3e14097379dd456fd6e79b95cee9d685001690630ea7fa54d0
+"motion-utils@npm:^12.12.1":
+  version: 12.12.1
+  resolution: "motion-utils@npm:12.12.1"
+  checksum: 73f745b2f619a6f971966cbde27b8d7a87523cdf38aa361519ffa7bd7582b8b7d05f95869181bc1e0c2a6c2c9a48dd45fd33f744383ff82d0a8e9b3b3cfb9702
   languageName: node
   linkType: hard
 
@@ -14226,11 +14228,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion@npm:^12.11.3":
-  version: 12.11.3
-  resolution: "motion@npm:12.11.3"
+"motion@npm:^12.12.1":
+  version: 12.12.1
+  resolution: "motion@npm:12.12.1"
   dependencies:
-    framer-motion: ^12.11.3
+    framer-motion: ^12.12.1
     tslib: ^2.4.0
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -14243,7 +14245,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 5d48f2310b00c0fb9a16b60b106e567013dbd26578e69aad13571481f8c3175a7d0582b19ca7e513379a5df54da2d53f27b72f4d266e9fc42d63d7325bf38896
+  checksum: 4fd2cbe025b1f64bab68c569ba4f0d39bdba07c38a6e2b622e493a49fe0d2980683c3827e73bad8a02a404eb4347495ccf3ad6c91a3f7cf4ef2a3f1651082032
   languageName: node
   linkType: hard
 
@@ -16101,14 +16103,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-reconciler@npm:0.31.0-rc-935180c7e0-20240524":
-  version: 0.31.0-rc-935180c7e0-20240524
-  resolution: "react-reconciler@npm:0.31.0-rc-935180c7e0-20240524"
+"react-reconciler@npm:^0.31.0":
+  version: 0.31.0
+  resolution: "react-reconciler@npm:0.31.0"
   dependencies:
-    scheduler: 0.25.0-rc-935180c7e0-20240524
+    scheduler: ^0.25.0
   peerDependencies:
-    react: 19.0.0-rc-935180c7e0-20240524
-  checksum: 0104022323bb3f39d7bbcd25f61a89ba68f5b65cfe46769f8eb06b48aeee0e9c87ee763943d1271947ef271978580fcc54fe79d7c3cfac7b64874d50776d2eb7
+    react: ^19.0.0
+  checksum: 820c4e4003c5615849bf0cda97d8a55b99af2bb59cc0825882b727f0ad0c4bf4581bb3d25e00beca1164203dbc172f0a8c4725e7aa2fb85e025938722384a84e
   languageName: node
   linkType: hard
 
@@ -16163,7 +16165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-use-measure@npm:^2.1.1":
+"react-use-measure@npm:^2.1.7":
   version: 2.1.7
   resolution: "react-use-measure@npm:2.1.7"
   peerDependencies:
@@ -16665,13 +16667,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.25.0-rc-935180c7e0-20240524":
-  version: 0.25.0-rc-935180c7e0-20240524
-  resolution: "scheduler@npm:0.25.0-rc-935180c7e0-20240524"
-  checksum: e53fcb767eca61a4e793bc040d9c98f2a0542682aa03d3f64e4faf07a86b4cdf4408a35eb298b4e64354968004dfe8c89033f5e42e0caf217ebc4062ba474d1a
-  languageName: node
-  linkType: hard
-
 "scheduler@npm:^0.25.0":
   version: 0.25.0
   resolution: "scheduler@npm:0.25.0"
@@ -16691,7 +16686,7 @@ __metadata:
   resolution: "se-2@workspace:."
   dependencies:
     "@react-three/drei": ^10.0.7
-    "@react-three/fiber": alpha
+    "@react-three/fiber": ^9.1.2
     "@tabler/icons-react": ^3.31.0
     "@types/three": latest
     clsx: ^2.1.1
@@ -16699,7 +16694,7 @@ __metadata:
     husky: ~9.1.6
     lint-staged: ~13.2.2
     lucide-react: ^0.510.0
-    motion: ^12.11.3
+    motion: ^12.12.1
     tailwind-merge: ^3.3.0
     three: ^0.176.0
     three-globe: ^2.42.4
@@ -19719,7 +19714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zustand@npm:^4.1.2, zustand@npm:^4.3.2":
+"zustand@npm:^4.3.2":
   version: 4.5.6
   resolution: "zustand@npm:4.5.6"
   dependencies:
@@ -19739,7 +19734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zustand@npm:^5.0.1, zustand@npm:~5.0.0":
+"zustand@npm:^5.0.1, zustand@npm:^5.0.3, zustand@npm:~5.0.0":
   version: 5.0.4
   resolution: "zustand@npm:5.0.4"
   peerDependencies:

@@ -2,9 +2,7 @@
 
 import dynamic from "next/dynamic";
 import type { NextPage } from "next";
-import { FeaturesSectionDemo } from "~~/components/ui/features-section-demo";
-import { GlareCardDemo } from "~~/components/ui/glare-card-demo";
-import { GlowingEffectDemoSecond } from "~~/components/ui/glowing-effect-demo";
+import { CanvasRevealEffectDemo2 } from "~~/components/ui/canvas-reveal-effect-demo";
 
 const Home: NextPage = () => {
   // Dynamically import the GlobeDemo to avoid SSR issues
@@ -16,13 +14,16 @@ const Home: NextPage = () => {
     <>
       <div className="flex items-center flex-col grow">
         <GlobeDemo />
-        <div className="pt-20">
+        <CanvasRevealEffectDemo2 text="SoulBound Token (SBT)" />
+        <CanvasRevealEffectDemo2 text="BioSBT" />
+        <CanvasRevealEffectDemo2 text="SynthSBT" />
+        {/* <div className="pt-20">
           <GlareCardDemo />
         </div>
         <FeaturesSectionDemo />
         <div className="px-10 pb-10">
           <GlowingEffectDemoSecond />
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -4,7 +4,7 @@ import { ThemeProvider } from "~~/components/ThemeProvider";
 import "~~/styles/globals.css";
 import { getMetadata } from "~~/utils/scaffold-eth/getMetadata";
 
-export const metadata = getMetadata({ title: "Humana Protocol", description: "8 billion lives" });
+export const metadata = getMetadata({ title: "Humana Omni", description: "8 billion lives" });
 
 const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
   return (
