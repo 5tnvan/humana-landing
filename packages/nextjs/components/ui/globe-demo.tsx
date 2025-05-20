@@ -2,7 +2,7 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
-import { MovingBorderDemo } from "./moving-borders-demo";
+// import { MovingBorderDemo } from "./moving-borders-demo";
 import { motion } from "motion/react";
 
 const World = dynamic(() => import("../ui/globe").then(m => m.World), {
@@ -401,7 +401,7 @@ export function GlobeDemo() {
     <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto background-image relative w-full">
       <img src="/humana-omni.png" alt="Humana Logo" className="absolute top-5 left-5 w-12 h-12 shadow-lg rounded-2xl" />
       <div className="hidden lg:block absolute top-5 right-5">
-        <MovingBorderDemo text={"Join Waitlist"} href={"/"} />
+        {/* <MovingBorderDemo text={"Join Waitlist"} href={"/"} /> */}
       </div>
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div

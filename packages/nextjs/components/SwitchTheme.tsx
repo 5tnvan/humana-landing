@@ -12,7 +12,7 @@ export const SwitchTheme = ({ className }: { className?: string }) => {
 
   const handleToggle = () => {
     if (isDarkMode) {
-      setTheme("dark");
+      setTheme("light");
       return;
     }
     setTheme("dark");
