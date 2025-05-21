@@ -9,7 +9,7 @@ import { motion } from "motion/react";
 export function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Real-Life, Verified",
+      title: "Real-Life, Connected",
       description: "Social Graph. Emotional Signal. Context Locked — On-Chain.",
       skeleton: <SkeletonOne />,
       className: "col-span-1 lg:col-span-4 border-b lg:border-r dark:border-neutral-800",
@@ -43,7 +43,7 @@ export function FeaturesSectionDemo() {
           Because your real-world impact matters.﻿
         </p>
         <div className="flex justify-center items-center">
-          <MovingBorderDemo text="Follow us on X" href="https://x.com/humanaprotocol" />
+          <MovingBorderDemo text="Follow us on X" href="https://x.com/humanadotearth" />
         </div>
       </div>
 
